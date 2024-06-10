@@ -10,7 +10,8 @@ class DashboardController extends Controller
 {
     public function index()
     {
+        $schedules = Schedule::all();
         $planes = Plane::all();
-        return view('welcome', compact('planes'));
+        return view('welcome', compact('schedules'));
     }
 }

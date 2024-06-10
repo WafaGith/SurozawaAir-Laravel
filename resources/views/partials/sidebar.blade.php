@@ -12,7 +12,7 @@
       <span class="tooltip">Dashboard</span>
     </li>
     <li>
-      <a href="">
+      <a href="{{route('schedules.index')}}">
         <i class='bx bx-calendar'></i>
         <span class="links_name">flight schedule</span>
       </a>
